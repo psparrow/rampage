@@ -20,4 +20,7 @@ Simply pass the path to a ruby script to the rampage executable and the output w
     rampage = Rampage.new("hello_world.rb")
     rampage.run
 
-Tests and more features coming soon!
+### TODO
+
+* add tests
+* add ability to specify a path for the rendered HTML file instead of a tempfile

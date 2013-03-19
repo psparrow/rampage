@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'rampage'
+
+path = ARGV[0] or raise "path to ruby script required!"
+
+Rampage.new(path).run
+
+# Give Launchy time to open the browser before terminating
+# the script
+sleep 1.5
